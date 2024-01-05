@@ -1,0 +1,25 @@
+@media (min-width: 767.98px) {
+  .ap-global-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 50px;
+  }
+  .ap-apropos-container {
+    display: flex;
+    justify-content: center;
+  }
+  .ap-info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ap-info-container .info-card {
+    width: 1023px;
+  }
+  .ap-info-container .expand-card {
+    width: 1023px;
+  }
+}/*# sourceMappingURL=apropos.css.map */

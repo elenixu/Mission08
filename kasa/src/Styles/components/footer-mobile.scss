@@ -1,0 +1,37 @@
+@media (max-width: 767.98px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-global {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-top: 66px;
+  }
+
+  .cop-mobile {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-bottom: 28px;
+    padding-top: 10px;
+  }
+
+  .cop-desktop {
+    display: none;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+}

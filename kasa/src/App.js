@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './data/adsHouse.json';
 
 function App() {
   return (

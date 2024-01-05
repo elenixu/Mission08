@@ -1,0 +1,106 @@
+@media (max-width: 767.98px) {
+  .fl-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .fl-infotext-profilepic-desktop {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fl-info-text-desktop {
+    display: none;
+    flex-direction: column;
+  }
+
+  .fl-info-title-desktop {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+
+  .fl-info-subtitle-desktop {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+  }
+  .fl-dropbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    .info-card {
+      width: 95%;
+    }
+
+    .expand-card {
+      width: 95%;
+    }
+  }
+
+  .fl-tagrating-container-desktop {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .fl-tag-container-desktop {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  /**/
+  .fl-infotext-tags-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .fl-info-text-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fl-info-title-mobile {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+  }
+
+  .fl-info-subtitle-mobile {
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 19.964px */
+  }
+
+  .fl-tag-container-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .fl-rating-container-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
