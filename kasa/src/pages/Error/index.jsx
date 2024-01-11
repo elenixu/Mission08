@@ -7,7 +7,6 @@ function Error() {
           Oups! La page que vous demandez n'existe pas.
         </div>
         <a href="/">
-          {' '}
           <div className="error-link">Retourner sur la page d’accueil</div>
         </a>
       </div>

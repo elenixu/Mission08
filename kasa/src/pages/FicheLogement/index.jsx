@@ -15,11 +15,10 @@ function FicheLogement() {
     (appartment) => appartment.id === idAppartment
   )
 
-  // Check if appartment is not found, render the Error component
   const navigate = useNavigate()
   React.useEffect(() => {
     if (!appartment) {
-      navigate('/error') // Redirect to the error page
+      navigate('/error')
     }
   }, [appartment, navigate])
 
@@ -27,7 +26,6 @@ function FicheLogement() {
   console.log(appartment)
 
   if (!appartment) {
-    // Render the Error component or a loading state/message if needed
     return <Error />
   }
 
@@ -37,6 +35,7 @@ function FicheLogement() {
   const hostPic = appartment.host.picture
   const descLog = appartment.description
   const equipList = appartment.equipments
+  const location = appartment.location
 
   return (
     <div className="fl-container">
@@ -44,14 +43,14 @@ function FicheLogement() {
       <div className="fl-infotext-profilepic-desktop">
         <div className="fl-info-text-desktop">
           <div className="fl-info-title-desktop">{titles}</div>
-          <div className="fl-info-subtitle-desktop">Paris, Île-de-France</div>
+          <div className="fl-info-subtitle-desktop">{location}</div>
         </div>
         <Host name={hostName} profilePic={hostPic}></Host>
       </div>
       <div className="fl-infotext-tags-mobile">
         <div className="fl-info-text-mobile">
           <div className="fl-info-title-mobile">{titles}</div>
-          <div className="fl-info-subtitle-mobile">Paris, Île-de-France</div>
+          <div className="fl-info-subtitle-mobile">{location}</div>
         </div>
         <div className="fl-tag-container-mobile">
           {appartment.tags.map((item, index) => (
