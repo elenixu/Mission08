@@ -1,0 +1,48 @@
+@import './components/header.css';
+@import './components/footer.css';
+@import './pages/home.css';
+@import './pages/error.css';
+@import './components/banner.css';
+@import './components/card.css';
+@import './pages/apropos.css';
+@import './components/dropbox.css';
+@import './pages/fichelogement.css';
+@import './components/carrousel.css';
+@import './components/host.css';
+@import './components/rating.css';
+@import './pages/home-mobile.css';
+@import './components/header-mobile.css';
+@import './components/banner-mobile.css';
+@import './components/card-mobile.css';
+@import './components/footer-mobile.css';
+@import './pages/fichelogement-mobile.css';
+@import './components/carrousel-mobile.css';
+@import './components/rating-mobile.css';
+@import './components/host-mobile.css';
+@import './components/tag-mobile.css';
+@import './components/dropbox-mobile.css';
+@import './pages/apropos-mobile.css';
+@import './pages/error-mobile.css';
+@media (min-width: 767.98px) {
+  .t-global-container {
+    border-radius: 10px;
+    background: #ff6060;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 115px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .t-text-container {
+    padding-top: 2px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 19.964px */
+  }
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,12 @@
+@media (max-width: 767.98px) {
+  .rt-star {
+    font-size: 16px;
+    padding: 3px;
+  }
+  .rt-star-red {
+    color: #ff6060;
+  }
+  .rt-star-grey {
+    color: #e3e3e3;
+  }
+}/*# sourceMappingURL=rating-mobile.css.map */

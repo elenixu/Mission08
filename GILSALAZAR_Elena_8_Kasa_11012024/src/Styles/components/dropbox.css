@@ -1,0 +1,42 @@
+@media (min-width: 767.98px) {
+  .info-card {
+    display: flex;
+    height: auto;
+    padding: 10px 20px 10px 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: var(--Red, #ff6060);
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 34.224px */
+  }
+  .expand-card {
+    display: flex;
+    width: 1018px;
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.6%; /* 25.668px */
+  }
+  .arrow-icon-up {
+    display: flex;
+  }
+  .arrow-icon-down {
+    display: flex;
+  }
+  .d-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+}/*# sourceMappingURL=dropbox.css.map */
