@@ -51,6 +51,10 @@
     .expand-card {
       width: auto;
     }
+
+    .dropbox {
+      width: 100%;
+    }
   }
 
   .fl-tagrating-container-desktop {
@@ -105,9 +109,5 @@
     display: none;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .dropbox {
-    width: 100%;
   }
 }

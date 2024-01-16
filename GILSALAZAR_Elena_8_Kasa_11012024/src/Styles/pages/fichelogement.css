@@ -46,6 +46,9 @@
   .fl-dropbox-container .expand-card {
     width: auto;
   }
+  .fl-dropbox-container .dropbox {
+    width: 100%;
+  }
   .fl-tagrating-container-desktop {
     display: flex;
     flex-direction: row;
@@ -93,8 +96,5 @@
     display: none;
     flex-direction: row;
     justify-content: space-between;
-  }
-  .dropbox {
-    width: 100%;
   }
 }/*# sourceMappingURL=fichelogement.css.map */

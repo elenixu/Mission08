@@ -20,6 +20,9 @@
     width: 1023px;
   }
   .ap-info-container .expand-card {
-    width: 1023px;
+    width: 1017px;
+  }
+  .ap-info-container .dropbox {
+    width: auto;
   }
 }/*# sourceMappingURL=apropos.css.map */
