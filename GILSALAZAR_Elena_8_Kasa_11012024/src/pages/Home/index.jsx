@@ -8,19 +8,16 @@ import Card from '../../components/Card/index.jsx'
 
 function Home() {
   console.log(appartments)
+
   return (
     <div className="home-global">
       <div className="home-container">
         <Banner picture={imgHome} text="Chez vous, partout et ailleurs" />
       </div>
       <div className="ads-container">
-        {appartments.map((item, id) => (
+        {appartments.map((item) => (
           <Link to={`/fichelogement/${item.id}`} key={item.id}>
-            <Card
-              text={item.title}
-              cover={item.cover}
-              idAppartment={item.id}
-            ></Card>
+            <Card text={item.title} cover={item.cover} idAppartment={item.id} />
           </Link>
         ))}
       </div>
