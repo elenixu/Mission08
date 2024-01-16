@@ -40,6 +40,12 @@
     justify-content: space-between;
     gap: 76px;
   }
+  .fl-dropbox-container .info-card {
+    width: auto;
+  }
+  .fl-dropbox-container .expand-card {
+    width: auto;
+  }
   .fl-tagrating-container-desktop {
     display: flex;
     flex-direction: row;

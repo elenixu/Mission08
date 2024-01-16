@@ -1,4 +1,5 @@
 import appartments from '../../data/adsHouse.json'
+import { Link } from 'react-router-dom'
 import React from 'react'
 import Banner from '../../components/Banner/index.jsx'
 import '../../Styles/app.css'
@@ -14,13 +15,13 @@ function Home() {
       </div>
       <div className="ads-container">
         {appartments.map((item, id) => (
-          <a href="/fichelogement">
+          <Link to={`/fichelogement/${item.id}`} key={item.id}>
             <Card
               text={item.title}
               cover={item.cover}
               idAppartment={item.id}
             ></Card>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

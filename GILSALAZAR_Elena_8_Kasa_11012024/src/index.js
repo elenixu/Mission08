@@ -8,10 +8,12 @@ import APropos from './pages/APropos'
 import Error from './pages/Error'
 import FicheLogement from './pages/FicheLogement'
 import Home from './pages/Home'
+import GlobalStyle from './components/Globalstyles'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <GlobalStyle />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
