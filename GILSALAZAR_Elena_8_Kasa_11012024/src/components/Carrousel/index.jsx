@@ -38,15 +38,21 @@ function Carrousel(props) {
       <div className="cr-container-image">
         <img src={listePics[currentIndex - 1]} alt="" className="cr-image" />
         <div className="cr-container-arrows">
-          <button className="cr-arrow" onClick={buttonClickLeft}>
-            <FontAwesomeIcon icon={faChevronLeft} />
-          </button>
-          <div className="cr-container-numbers">
-            {currentIndex}/{lengthOfPics}
-          </div>
-          <button className="cr-arrow" onClick={buttonClickRight}>
-            <FontAwesomeIcon icon={faChevronRight} />
-          </button>
+          {lengthOfPics !== 1 && (
+            <button className="cr-arrow" onClick={buttonClickLeft}>
+              <FontAwesomeIcon icon={faChevronLeft} />
+            </button>
+          )}
+          {lengthOfPics !== 1 && (
+            <div className="cr-container-numbers">
+              {currentIndex}/{lengthOfPics}
+            </div>
+          )}
+          {lengthOfPics !== 1 && (
+            <button className="cr-arrow" onClick={buttonClickRight}>
+              <FontAwesomeIcon icon={faChevronRight} />
+            </button>
+          )}
         </div>
       </div>
     </div>

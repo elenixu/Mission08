@@ -6,9 +6,17 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 function Rating(prop) {
   const stars = Array.from({ length: 5 }, (_, index) =>
     prop.rating > index ? (
-      <FontAwesomeIcon className="rt-star rt-star-red" icon={faStar} />
+      <FontAwesomeIcon
+        className="rt-star rt-star-red"
+        icon={faStar}
+        key={index}
+      />
     ) : (
-      <FontAwesomeIcon className="rt-star rt-star-grey" icon={faStar} />
+      <FontAwesomeIcon
+        className="rt-star rt-star-grey"
+        icon={faStar}
+        key={index}
+      />
     )
   )
 

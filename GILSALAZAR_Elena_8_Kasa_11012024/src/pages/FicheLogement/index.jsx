@@ -54,14 +54,14 @@ function FicheLogement() {
         </div>
         <div className="fl-tag-container-mobile">
           {appartment.tags.map((item, index) => (
-            <Tag text={item}></Tag>
+            <Tag text={item} key={item + index}></Tag>
           ))}
         </div>
       </div>
       <div className="fl-tagrating-container-desktop">
         <div className="fl-tag-container-desktop">
           {appartment.tags.map((item, index) => (
-            <Tag text={item}></Tag>
+            <Tag text={item} key={item + index}></Tag>
           ))}
         </div>
         <div className="fl-rating-container-desktop">
